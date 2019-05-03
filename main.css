@@ -1,0 +1,74 @@
+html {scroll-behavior: smooth;}
+* {outline: none !important;}
+body {font-family: Lato;}
+
+::-moz-selection {background-color: transparent;}
+::selection {background-color: transparent;}
+
+.navbar a, .navbar span {
+    padding: 15px;
+    color: black;
+    font-size: 16px;
+}
+
+#logo {
+    position: absolute;
+    top: -45px;
+    left: 50%; 
+    transform: translate(-50%);
+}
+
+#logo img {width: 150px;}
+
+.carousel-inner img {
+    display: block;
+    margin: auto;  
+    position: center; 
+    max-width: 100%;
+}
+
+.slideshow-header {
+    position: absolute;
+    top: 18vw;
+    left: 50%; 
+    transform: translate(-75%);
+}
+
+.slideshow-header h1, .slideshow-header p {
+    width: 150%;
+    text-align: center;
+}
+
+.slideshow-header h1 {
+    font-size: 8.5vw;
+    font-weight: bolder;
+}
+.slideshow-header p {font-size: 3.5vw;}
+.slideshow-header a {
+    text-decoration: none;
+    font-size: 2.5vw;
+    border-bottom: solid 0.3vw;
+    padding-bottom: 1vw;
+    margin-left: auto;
+    margin: 1vw;
+}
+.slideshow-header button {
+    font-size: 2vw;
+    border: none;
+    padding: 2.5vw 5vw;
+    border-radius: 4vw;
+    margin: 1vw;
+}
+
+.some-buttons {
+    width: 100%;
+    margin-left: 15vw;;
+}
+
+
+.white {color: white;}
+
+@media only screen and (min-width: 900px) {
+    #firstSlideshow {display: none !important;}
+    #firstNavbar {display: none !important;}
+}
