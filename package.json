@@ -1,0 +1,15 @@
+{
+  "name": "samsungbootstraplook-alike",
+  "version": "1.0.0",
+  "description": "Samsung website look-alike. Bootstrap. SASS.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d site"
+  },
+  "author": "Marcelo Mariduena",
+  "license": "ISC",
+  "homepage": "https://github.com/MarceloMariduena/SamsungBootstrapLook-alike",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
