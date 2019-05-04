@@ -67,10 +67,22 @@ body {font-family: Lato;}
 #personalizedIndicators {
     max-width: 1460px;
     margin: auto;
-    font-size: 3.5vw;
+    font-size: 2.5vw;
     text-align: center;
 }
-#personalizedIndicators a {padding: 2vw;}
+#personalizedIndicators a {
+    text-decoration: none;
+    background-color: lightgray;
+    margin: 1vw;
+    padding: 2vw;
+    border-radius: 0.8vw;
+    transition: 0.5s;
+}
+#personalizedIndicators a:hover {
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}
 
 .firstGridElem{grid-area: first;}
 .secondGridElem{grid-area: second;}
