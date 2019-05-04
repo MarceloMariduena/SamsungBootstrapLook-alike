@@ -3,7 +3,7 @@ html {scroll-behavior: smooth;}
 body {font-family: Lato;}
 ::-moz-selection {background-color: transparent;}
 ::selection {background-color: transparent;}
-
+.white {color: white;}
 
 .navbar a, .navbar span {
     padding: 15px;
@@ -58,8 +58,6 @@ body {font-family: Lato;}
     margin-left: 15vw;;
 }
 
-.white {color: white;}
-
 @media only screen and (min-width: 750px) {
     #smallScreenContent {display: none !important;}
 }
@@ -67,20 +65,19 @@ body {font-family: Lato;}
 #personalizedIndicators {
     max-width: 1460px;
     margin: auto;
-    font-size: 2.5vw;
+    font-size: 30px;
     text-align: center;
 }
 #personalizedIndicators a {
     text-decoration: none;
-    background-color: lightgray;
-    margin: 1vw;
-    padding: 2vw;
-    border-radius: 0.8vw;
+    background-color: #EEE;
+    margin: 35px 15px 15px 15px;
+    padding: 15px;
+    border-radius: 5%;
     transition: 0.5s;
 }
 #personalizedIndicators a:hover {
-    color: white;
-    background-color: black;
+    background-color: white;
     transition: 0.5s;
 }
 
@@ -107,6 +104,11 @@ body {font-family: Lato;}
 .offersGrid img {height: 100%;}
 
 @media only screen and (max-width: 968px) {
+    #personalizedIndicators {font-size: 2.5vw;}
+    #personalizedIndicators a {
+        margin: 6vw 1vw 1vw 1vw;
+        padding: 2vw;
+    }
     .offersGrid {
         grid-template-areas:
         "first second"
