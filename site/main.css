@@ -64,6 +64,14 @@ body {font-family: Lato;}
     #smallScreenContent {display: none !important;}
 }
 
+#personalizedIndicators {
+    max-width: 1460px;
+    margin: auto;
+    font-size: 3.5vw;
+    text-align: center;
+}
+#personalizedIndicators a {padding: 2vw;}
+
 .firstGridElem{grid-area: first;}
 .secondGridElem{grid-area: second;}
 .thirdGridElem{grid-area: third;}
