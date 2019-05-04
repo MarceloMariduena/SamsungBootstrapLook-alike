@@ -58,9 +58,8 @@ body {font-family: Lato;}
     margin-left: 15vw;;
 }
 
-
 .white {color: white;}
 
 @media only screen and (min-width: 750px) {
-    #smallScreens {display: none !important;}
+    #smallScreenContent {display: none !important;}
 }
