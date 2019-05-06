@@ -4,6 +4,7 @@ body {font-family: Lato;}
 ::-moz-selection {background-color: transparent;}
 ::selection {background-color: transparent;}
 .white {color: white;}
+ul{list-style-type: none;}
 
 .navbar a, .navbar span {
     padding: 15px;
@@ -125,5 +126,53 @@ body {font-family: Lato;}
         "third"
         "fourth"
         "fifth";
+    }
+}
+
+#footer {
+    background-color: rgb(245, 245, 245);
+}
+#footer-footnotes {
+    padding: 5vw 5vw 3vw 5vw;
+    font-size: 14px;
+    font-family: Arial;
+    color: #555;
+    text-align: center;
+}
+#footer-grid {
+    display: flex;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-bottom: 4vw;
+    justify-content: space-around;
+}
+#footer-grid .header {
+    color: black;
+    font-weight: bolder;
+    font-size: 15px;
+}
+#drop1, #drop3, #drop5, #drop7, #drop9 {text-decoration: none;}
+#footer-grid ul li a {
+    color: black;
+    font-weight: 250;
+    position: relative;
+    left: -40px;
+}
+
+@media only screen and (max-width: 900px){
+    #footer-grid { 
+        flex-direction: column;
+        text-align: left;
+    }
+    #footer-grid ul {display: none;}
+    #footer-grid .header {
+        padding: 1.5vw;
+        border-bottom: 1px solid #DDD;
+    }
+    #footer-grid ul li a {
+        display: block;
+        padding: 15px;
+        background-color: #DDD;
+        border-bottom: 1px solid #CCC;
     }
 }
