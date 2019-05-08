@@ -86,24 +86,29 @@ ul{list-style-type: none;}
     transition: 0.5s;
 }
 
-@media only screen and (min-width: 900px) {
-    #smallScreenContent {
+@media only screen and (min-width: 1550px) {
+    #firstNavbar {
         display: none !important;
     }
 }
-@media only screen and (max-width: 900px) {
-    #bigScreenContent {
-        display: none !important;
-    }
+
+#secondNavbar {
+    display: flex;
+    justify-content: center;
 }
 
 #logo2 {
     position: relative;
     height: 35px;
-    top: -52px;
+    top: -45px;
 }
 #logo2 img {
     width: 150px;
+}
+@media only screen and (max-width: 1550px) {
+    #secondNavbar {
+        display: none !important;
+    }
 }
 
 .firstGridElem{grid-area: first;}
