@@ -228,7 +228,7 @@ iframe {border: 0 !important;}
 }
 
 #footerGrid1 ul li a {
-    color: black;
+    color: #222;
     display: block;
     padding: 15px;
 }
@@ -251,6 +251,7 @@ iframe {border: 0 !important;}
     font-weight: bold;
     font-size: 15px;
     margin: 0;
+    padding-bottom: 20px;
 }
 
 #footerGrid2 ul li a {
