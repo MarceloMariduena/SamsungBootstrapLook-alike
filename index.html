@@ -14,9 +14,9 @@
 </head>
 <body>
 
-<section id="smallScreenContent">
+
 <!-- Navigation bar for small screens -->
-<nav id="firstNavbar" class="navbar navbar-expand-lg navbar-light">
+<nav id="firstNavbar" class="navbar navbar-expand-lg-2 navbar-light">
     <!-- Logo -->
     <a id="logo" href="#"><img src="logo.png"></a>
     <!-- Dropdown button -->
@@ -149,110 +149,8 @@
     </div> 
 </nav> 
 
-<!-- First slideshow for small screens -->
-<div id="firstSlideshow" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ul class="carousel-indicators">
-    <li data-target="#firstSlideshow" data-slide-to="0" class="active"></li>
-    <li data-target="#firstSlideshow" data-slide-to="1"></li>
-    <li data-target="#firstSlideshow" data-slide-to="2"></li>
-    <li data-target="#firstSlideshow" data-slide-to="3"></li>
-  </ul>
-    <!-- Images with captions -->
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="slideshow-header white">
-            <h1 class="bigBoldText">Galaxy S10 5G</h1>
-            <p>Stream, download, browser and post HyperFast without Wi-Fi with our first 5G-ready device.</p>
-            <div class="some-buttons">
-              <a href="#">LEARN MORE</a><button>PRE-ORDER</button>
-            </div>
-          </div>
-          <img class="w-100" src="Samsung1.jpg" alt="Galaxsy 10">
-        </div>
-        <div class="carousel-item">
-          <div class="slideshow-header">
-            <h1 class="bigBoldText">Power your ideas with the Notebook 9 Pen</h1>
-            <p>2-in-1 device with built-in S-Pen and up to 1TB of storage.</p>
-            <div class="some-buttons">
-              <a href="#">LEARN MORE</a><button>BUY NOW</button>
-            </div>
-          </div>
-          <img class="w-100" src="Samsung4.jpg" alt="Samsung Tablet">
-        </div>
-        <div class="carousel-item white">
-          <div class="slideshow-header">
-            <h1 class="bigBoldText">Galaxy S10</h1>
-            <p>Get an Unlocked Galaxy S10e starting from 16.67/month or $400 with eligible iPhone trade-in.*</p>
-            <div class="some-buttons">
-              <a href="#">LEARN MORE</a><button>BUY NOW</button>
-            </div>
-          </div>
-          <img class="w-100" src="Samsung3.jpg" alt="Galaxy S10e">
-        </div>
-        <div class="carousel-item">
-          <div class="slideshow-header">
-            <h1 class="bigBoldText">Galaxy Tab S5e</h1>
-            <p>A lot more tablet in a thinner frame.</p>
-            <div class="some-buttons">
-              <a href="#">LEARN MORE</a><button>BUY NOW</button>
-            </div>
-          </div>
-          <img class="w-100" src="Samsung5.jpg" alt="Bird with Tablet">
-        </div>
-    </div>
-    <!-- Left and right controls -->
-    <a class="carousel-control-prev" href="#firstSlideshow" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-    </a>
-    <a class="carousel-control-next" href="#firstSlideshow" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
-    </a>
-</div>
-
-<h1 class="text-center p-4 bigBoldText">Next Generation Galaxy</h1>
-
-<!-- Second slideshow for small screens -->
-<div id="secondSlideshow" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ul class="carousel-indicators">
-    <li data-target="#secondSlideshow" data-slide-to="0" class="active"></li>
-    <li data-target="#secondSlideshow" data-slide-to="1"></li>
-    <li data-target="#secondSlideshow" data-slide-to="2"></li>
-  </ul>
-  <!-- Videos -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="d-block w-100 embed-responsive-item" src="https://www.youtube.com/embed/ISjiJQGJ72o" allowfullscreen></iframe>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="d-block w-100 embed-responsive-item" src="https://www.youtube.com/embed/nPf4WW8ovMU" allowfullscreen></iframe>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="d-block w-100 embed-responsive-item" src="https://www.youtube.com/embed/4S8n9SmcXLE" allowfullscreen></iframe>
-      </div>    
-    </div>
-  </div>
-  <!-- Left and right controls -->
-  <a class="carousel-control-prev" href="#secondSlideshow" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-  </a>
-  <a class="carousel-control-next" href="#secondSlideshow" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-  </a>
-</div>
-</section>
-
-<section id="bigScreenContent">
+<!-- Navigation bar for big screens -->
 <nav id="secondNavbar" class="navbar navbar-expand-sm">
-  <!-- Brand -->
-  <a id="logo2" class="navbar-brand" href="#"><img src="logo.png"></a>
-
   <!-- Links -->
   <ul class="navbar-nav">
     <li class="nav-item dropdown">
@@ -317,6 +215,9 @@
         <a class="dropdown-item" href="#">Accessories</a>
       </div>
     </li>
+    <!-- Brand -->
+    <a id="logo2" class="navbar-brand" href="#"><img src="logo.png"></a>
+
     <li class="nav-item"><a class="nav-link" href="#">SHOP</a></li>
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
@@ -376,10 +277,119 @@
     </li>
   </ul>
 </nav>
+
+<!-- First slideshow for small screens -->
+<section id="firstSlideshow" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#firstSlideshow" data-slide-to="0" class="active"></li>
+    <li data-target="#firstSlideshow" data-slide-to="1"></li>
+    <li data-target="#firstSlideshow" data-slide-to="2"></li>
+    <li data-target="#firstSlideshow" data-slide-to="3"></li>
+  </ul>
+  <!-- Images with captions -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="slideshow-header white">
+        <h1 class="bigBoldText">Galaxy S10 5G</h1>
+        <p>Stream, download, browser and post HyperFast without Wi-Fi with our first 5G-ready device.</p>
+        <div class="some-buttons">
+          <a href="#">LEARN MORE</a><button>PRE-ORDER</button>
+        </div>
+      </div>
+      <img class="w-100" src="Samsung1.jpg" alt="Galaxsy 10">
+    </div>
+    <div class="carousel-item">
+      <div class="slideshow-header">
+        <h1 class="bigBoldText">Power your ideas with the Notebook 9 Pen</h1>
+        <p>2-in-1 device with built-in S-Pen and up to 1TB of storage.</p>
+        <div class="some-buttons">
+          <a href="#">LEARN MORE</a><button>BUY NOW</button>
+        </div>
+      </div>
+      <img class="w-100" src="Samsung4.jpg" alt="Samsung Tablet">
+    </div>
+    <div class="carousel-item white">
+      <div class="slideshow-header">
+        <h1 class="bigBoldText">Galaxy S10</h1>
+        <p>Get an Unlocked Galaxy S10e starting from 16.67/month or $400 with eligible iPhone trade-in.*</p>
+        <div class="some-buttons">
+          <a href="#">LEARN MORE</a><button>BUY NOW</button>
+        </div>
+      </div>
+      <img class="w-100" src="Samsung3.jpg" alt="Galaxy S10e">
+    </div>
+    <div class="carousel-item">
+      <div class="slideshow-header">
+        <h1 class="bigBoldText">Galaxy Tab S5e</h1>
+        <p>A lot more tablet in a thinner frame.</p>
+        <div class="some-buttons">
+          <a href="#">LEARN MORE</a><button>BUY NOW</button>
+        </div>
+      </div>
+      <img class="w-100" src="Samsung5.jpg" alt="Bird with Tablet">
+    </div>
+  </div>
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#firstSlideshow" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#firstSlideshow" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</section>
+
+<!-- Second slideshow for small screens -->
+<section id="secondSlideshow" class="carousel slide" data-ride="carousel">
+<h1 class="text-center p-4 bigBoldText">Next Generation Galaxy</h1>
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#secondSlideshow" data-slide-to="0" class="active"></li>
+    <li data-target="#secondSlideshow" data-slide-to="1"></li>
+    <li data-target="#secondSlideshow" data-slide-to="2"></li>
+  </ul>
+  <!-- Videos -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="d-block w-100 embed-responsive-item" src="https://www.youtube.com/embed/ISjiJQGJ72o" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="d-block w-100 embed-responsive-item" src="https://www.youtube.com/embed/nPf4WW8ovMU" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="d-block w-100 embed-responsive-item" src="https://www.youtube.com/embed/4S8n9SmcXLE" allowfullscreen></iframe>
+      </div>    
+    </div>
+  </div>
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#secondSlideshow" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  </a>
+  <a class="carousel-control-next" href="#secondSlideshow" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  </a>
+</section>
+
+<!-- Videos grid for big screens -->
+<section id="videosGrid">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ISjiJQGJ72o" allowfullscreen></iframe>
+  </div>
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nPf4WW8ovMU" allowfullscreen></iframe>
+  </div>
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/4S8n9SmcXLE" allowfullscreen></iframe>
+  </div>
 </section>
 
 <!-- Third slideshow -->
-<div id="thirdSlideshow" class="carousel slide" data-ride="carousel">
+<section id="thirdSlideshow" class="carousel slide" data-ride="carousel">
   <!-- Personalized Indicators -->
   <h2 id="personalizedIndicators" class="d-flex justify-content-center">
     <a href="#" data-target="#thirdSlideshow" data-slide-to="0" class="active">Mother's Day Offers</a>
@@ -433,7 +443,7 @@
   <a class="carousel-control-next" href="#thirdSlideshow" data-slide="next">
     <span class="carousel-control-next-icon"></span>
   </a>
-</div>
+</section>
 
 <!-- Footer -->
 <footer id="footer">
