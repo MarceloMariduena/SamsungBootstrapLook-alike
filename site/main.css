@@ -5,6 +5,7 @@ body {font-family: Lato;}
 ::selection {background-color: transparent;}
 .white {color: white;}
 ul{list-style-type: none;}
+iframe {border: 0 !important;}
 
 .navbar a, .navbar span {
     padding: 15px;
@@ -23,69 +24,6 @@ ul{list-style-type: none;}
     width: 150px;
 }
 
-.bigBoldText {
-    font-size: 8.5vw;
-    font-weight: bolder;
-}
-
-.slideshow-header {
-    position: absolute;
-    top: 18vw;
-    left: 50%; 
-    transform: translate(-75%);
-}
-
-.slideshow-header h1, .slideshow-header p {
-    width: 150%;
-    text-align: center;
-}
-
-.slideshow-header p {
-    font-size: 3.5vw;
-}
-
-.slideshow-header a {
-    text-decoration: none;
-    font-size: 2.5vw;
-    border-bottom: solid 0.3vw;
-    padding-bottom: 1vw;
-    margin-left: auto;
-    margin: 1vw;
-}
-.slideshow-header button {
-    font-size: 2vw;
-    border: none;
-    padding: 2.5vw 5vw;
-    border-radius: 4vw;
-    margin: 1vw;
-}
-
-.some-buttons {
-    width: 100%;
-    margin-left: 15vw;;
-}
-
-#personalizedIndicators {
-    max-width: 1460px;
-    margin: auto;
-    font-size: 30px;
-    text-align: center;
-}
-
-#personalizedIndicators a {
-    text-decoration: none;
-    background-color: #EEE;
-    margin: 35px 15px 15px 15px;
-    padding: 15px;
-    border-radius: 5%;
-    transition: 0.5s;
-}
-
-#personalizedIndicators a:hover {
-    background-color: white;
-    transition: 0.5s;
-}
-
 @media only screen and (min-width: 1550px) {
     #firstNavbar {
         display: none !important;
@@ -102,22 +40,110 @@ ul{list-style-type: none;}
     height: 35px;
     top: -45px;
 }
+
 #logo2 img {
     width: 150px;
 }
+
 @media only screen and (max-width: 1550px) {
     #secondNavbar {
         display: none !important;
     }
 }
 
-.firstGridElem{grid-area: first;}
-.secondGridElem{grid-area: second;}
-.thirdGridElem{grid-area: third;}
-.fourthGridElem{grid-area: fourth;}
-.fifthGridElem{grid-area: fifth;}
+.bigBoldText {
+    font-size: 7vw;
+    max-width: 900px;
+    font-weight: bolder;
+}
 
-.offersGrid {
+#firstSlideshow .slideshow-header {
+    position: absolute;
+    top: 18vw;
+    left: 50%; 
+    transform: translate(-75%);
+}
+
+#firstSlideshow .slideshow-header h1{
+    width: 150%;
+    text-align: center;
+}
+
+#firstSlideshow .slideshow-header p {
+    width: 150%;
+    text-align: center;
+    font-size: 3.5vw;
+}
+
+#firstSlideshow .slideshow-header a {
+    text-decoration: none;
+    font-size: 2.5vw;
+    border-bottom: solid 0.3vw;
+    padding-bottom: 1vw;
+    margin-left: auto;
+    margin: 1vw;
+}
+#firstSlideshow .slideshow-header button {
+    font-size: 2vw;
+    border: none;
+    padding: 2.5vw 5vw;
+    border-radius: 4vw;
+    margin: 1vw;
+}
+
+#firstSlideshow .some-buttons {
+    width: 100%;
+    margin-left: 15vw;;
+}
+
+@media only screen and (min-width: 900px) {
+    #firstSlideshow, #secondSlideshow {
+        display: none !important;
+    }
+}
+
+#videosGrid {
+    display: flex;
+    max-width: 1440px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 900px) {
+    #videosGrid {
+        display: none !important;
+    }
+}
+
+#thirdSlideshow #personalizedIndicators {
+    max-width: 1460px;
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+}
+
+#thirdSlideshow #personalizedIndicators a {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 2px #CCC;
+    margin: 35px 15px 15px 15px;
+    padding: 15px;
+    transition: 0.5s;
+}
+
+#thirdSlideshow #personalizedIndicators a:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+#thirdSlideshow .firstGridElem{grid-area: first;}
+#thirdSlideshow .secondGridElem{grid-area: second;}
+#thirdSlideshow .thirdGridElem{grid-area: third;}
+#thirdSlideshow .fourthGridElem{grid-area: fourth;}
+#thirdSlideshow .fifthGridElem{grid-area: fifth;}
+
+#thirdSlideshow .offersGrid {
     padding: 2vw;
     max-width: 1460px;
     margin: auto;
@@ -127,26 +153,26 @@ ul{list-style-type: none;}
     "third fourth fifth fifth";
     grid-gap: 1vw;
 }
-.offersGrid a {
+#thirdSlideshow .offersGrid a {
     transition: 0.6s;
 }
 
-.offersGrid a:hover {
+#thirdSlideshow .offersGrid a:hover {
     box-shadow: 0.6vw 0.6vw 0.6vw #BBB;
     transition: 0.6s;
 }
 
-.offersGrid img {
+#thirdSlideshow .offersGrid img {
     height: 100%;
 }
 
 @media only screen and (max-width: 968px) {
-    #personalizedIndicators {font-size: 2.5vw;}
-    #personalizedIndicators a {
+    #thirdSlideshow #personalizedIndicators {font-size: 2.5vw;}
+    #thirdSlideshow #personalizedIndicators a {
         margin: 6vw 1vw 1vw 1vw;
         padding: 2vw;
     }
-    .offersGrid {
+    #thirdSlideshow .offersGrid {
         grid-template-areas:
         "first second"
         "third fourth"
@@ -155,7 +181,7 @@ ul{list-style-type: none;}
     }
 }
 @media only screen and (max-width: 600px) {
-    .offersGrid {
+    #thirdSlideshow .offersGrid {
         grid-template-areas:
         "first"
         "second"
