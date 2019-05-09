@@ -64,12 +64,12 @@ iframe {border: 0 !important;}
 }
 
 #firstSlideshow .slideshow-header {
+    width: 80%;
+    text-align: center;
     position: absolute;
     top: 18vw;
     left: 50%; 
-    transform: translate(-75%);
-    text-align: center;
-    width: 150%;
+    transform: translate(-50%);
 }
 
 #firstSlideshow .slideshow-header p {
@@ -81,6 +81,7 @@ iframe {border: 0 !important;}
     font-size: 2.5vw;
     border-bottom: solid 0.3vw;
     padding-bottom: 1vw;
+    margin-left: -25vw;
     margin-right: 1vw;
 }
 #firstSlideshow .slideshow-header button {
@@ -132,6 +133,11 @@ iframe {border: 0 !important;}
     margin-right: 10px;
 }
 
+#firstSlideshowBig .slideshowHeaderLeft p,
+#firstSlideshowBig .slideshowHeaderRight p {
+    font-size: 21px;
+}
+
 #firstSlideshowBig .slideshowHeaderLeft button,
 #firstSlideshowBig .slideshowHeaderRight button {
     font-size: 15px;
@@ -139,6 +145,14 @@ iframe {border: 0 !important;}
     padding: 10px 20px;
     border-radius: 20px;
     margin-left: 10px;
+    transition: 0.5s;
+}
+
+#firstSlideshowBig .slideshowHeaderLeft button:hover,
+#firstSlideshowBig .slideshowHeaderRight button:hover {
+    background-color: #666;
+    color: white;
+    transition: 0.5s;
 }
 
 @media only screen and (max-width: 900px) {
@@ -162,7 +176,7 @@ iframe {border: 0 !important;}
 #thirdSlideshow #personalizedIndicators {
     max-width: 1460px;
     margin: auto;
-    font-size: 30px;
+    font-size: 28px;
     text-align: center;
 }
 
