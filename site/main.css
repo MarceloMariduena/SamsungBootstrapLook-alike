@@ -63,7 +63,7 @@ iframe {border: 0 !important;}
     }
 }
 
-#firstSlideshow .slideshow-header {
+#firstSlideshow .slideshowHeader {
     width: 80%;
     text-align: center;
     position: absolute;
@@ -72,11 +72,11 @@ iframe {border: 0 !important;}
     transform: translate(-50%);
 }
 
-#firstSlideshow .slideshow-header p {
+#firstSlideshow .slideshowHeader p {
     font-size: 3.5vw;
 }
 
-#firstSlideshow .slideshow-header a {
+#firstSlideshow .slideshowHeader a {
     text-decoration: none;
     font-size: 2.5vw;
     border-bottom: solid 0.3vw;
@@ -84,7 +84,7 @@ iframe {border: 0 !important;}
     margin-left: -25vw;
     margin-right: 1vw;
 }
-#firstSlideshow .slideshow-header button {
+#firstSlideshow .slideshowHeader button {
     font-size: 2vw;
     border: none;
     padding: 2.5vw 5vw;
