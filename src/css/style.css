@@ -226,6 +226,7 @@ iframe {
     grid-template-areas: "first" "second" "third" "fourth" "fifth"; } }
 
 #footer {
+  bottom: 0;
   background-color: whitesmoke; }
   #footer #footer-footnotes {
     padding: 5vw 5vw 3vw 5vw;
@@ -264,6 +265,7 @@ iframe {
     display: -ms-flexbox;
     display: flex;
     padding-left: 4vw;
+    padding-bottom: 20px;
     -ms-flex-pack: distribute;
     justify-content: space-around; }
     #footer #footerGrid2 .header {
@@ -277,8 +279,16 @@ iframe {
       color: black;
       position: relative;
       left: -40px; }
-  #footer #finalNotes p {
-    text-align: center; }
+  #footer #finalNotes {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #000; }
+    #footer #finalNotes a {
+      font-size: 18px;
+      text-decoration: none;
+      color: white; }
+    #footer #finalNotes a:hover {
+      color: lightgrey; }
 
 @media only screen and (min-width: 900px) {
   #footerGrid1 {

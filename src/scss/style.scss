@@ -227,6 +227,7 @@ $logo-width: 150px;
 }
 
 #footer {
+    bottom: 0;
     background-color: rgb(245, 245, 245);
     #footer-footnotes {
         padding: 5vw 5vw 3vw 5vw;
@@ -267,6 +268,7 @@ $logo-width: 150px;
     #footerGrid2 {
         display: flex;
         padding-left: 4vw;
+        padding-bottom: 20px;
         justify-content: space-around;
         .header {
             display: block;
@@ -282,8 +284,18 @@ $logo-width: 150px;
             left: -40px;
         }
     }
-    #finalNotes p {
+    #finalNotes {
         text-align: center;
+        padding: 40px 20px;
+        background-color: #000;
+        a {
+            font-size: 18px;
+            text-decoration: none;
+            color: white;
+        }
+        a:hover {
+            color: lightgrey;
+        }
     }
 }
 @media only screen and (min-width: 900px){
