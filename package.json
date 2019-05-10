@@ -4,12 +4,19 @@
   "description": "Samsung website look-alike. Bootstrap. SASS.",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d site"
+    "start": "gulp",
+    "deploy": "gh-pages -d src"
   },
   "author": "Marcelo Mariduena",
   "license": "ISC",
   "homepage": "https://github.com/MarceloMariduena/SamsungBootstrapLook-alike",
   "dependencies": {
-    "gh-pages": "^2.0.1"
+    "browser-sync": "^2.26.5",
+    "gh-pages": "^2.0.1",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp-autoprefixer": "^6.1.0"
   }
 }
