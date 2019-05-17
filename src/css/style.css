@@ -5,7 +5,7 @@ html {
   outline: none !important; }
 
 body {
-  font-family: Lato; }
+  font-family: Lato, Arial, Helvetica, sans-serif; }
 
 ::-moz-selection {
   background-color: transparent; }
