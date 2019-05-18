@@ -278,7 +278,10 @@ iframe {
       position: relative;
       left: -40px; }
   #footer #finalNotes p {
+    display: block;
     text-align: center; }
+  #footer #finalNotes p a {
+    text-decoration: none;}
 
 @media only screen and (min-width: 900px) {
   #footerGrid1 {
